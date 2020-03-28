@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// custom imports
+import { Helmet } from "react-helmet";
+import Factland from "./components/factGenerator/FactLand";
+import NumberLand from "./components/numbersGame/NumberLand";
+
+class App extends Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+      factLand: true,
+    }
+  }
+
+  // toggling between pages
+  changePageHandler = () => {
+    if (this.state.factLand) {
+      this.setState({
+        factLand: false,
+      })
+    } else {
+      this.setState({
+        factLand: true,
+      })
+    }
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Helmet>
+          <title>Number World</title>
+        </Helmet>
+        {
+          this.state.factLand
+            ? <Factland changePage={this.changePageHandler} />
+            : <NumberLand changePage={this.changePageHandler} />
+        }
+      </div>
+    );
+  }
 }
 
 export default App;
