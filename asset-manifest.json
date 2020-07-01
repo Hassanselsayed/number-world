@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/number-world/static/css/main.77f83067.chunk.css",
-    "main.js": "/number-world/static/js/main.1884eca3.chunk.js",
-    "main.js.map": "/number-world/static/js/main.1884eca3.chunk.js.map",
+    "main.css": "/number-world/static/css/main.ef752a10.chunk.css",
+    "main.js": "/number-world/static/js/main.dbdf58f4.chunk.js",
+    "main.js.map": "/number-world/static/js/main.dbdf58f4.chunk.js.map",
     "runtime-main.js": "/number-world/static/js/runtime-main.834cb13e.js",
     "runtime-main.js.map": "/number-world/static/js/runtime-main.834cb13e.js.map",
     "static/js/2.7908a1f1.chunk.js": "/number-world/static/js/2.7908a1f1.chunk.js",
     "static/js/2.7908a1f1.chunk.js.map": "/number-world/static/js/2.7908a1f1.chunk.js.map",
     "index.html": "/number-world/index.html",
-    "precache-manifest.7e11d9e6947d4906333219f9d44e800b.js": "/number-world/precache-manifest.7e11d9e6947d4906333219f9d44e800b.js",
+    "precache-manifest.de9b94d02e642d5e4ad148a8b5be2c9f.js": "/number-world/precache-manifest.de9b94d02e642d5e4ad148a8b5be2c9f.js",
     "service-worker.js": "/number-world/service-worker.js",
-    "static/css/main.77f83067.chunk.css.map": "/number-world/static/css/main.77f83067.chunk.css.map",
+    "static/css/main.ef752a10.chunk.css.map": "/number-world/static/css/main.ef752a10.chunk.css.map",
     "static/js/2.7908a1f1.chunk.js.LICENSE.txt": "/number-world/static/js/2.7908a1f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.834cb13e.js",
     "static/js/2.7908a1f1.chunk.js",
-    "static/css/main.77f83067.chunk.css",
-    "static/js/main.1884eca3.chunk.js"
+    "static/css/main.ef752a10.chunk.css",
+    "static/js/main.dbdf58f4.chunk.js"
   ]
 }
