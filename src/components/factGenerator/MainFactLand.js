@@ -27,7 +27,7 @@ class MainFactLand extends Component {
                             }
                     }
                 >
-                    <label htmlFor="numberInput"><h3>Please choose a number (1 to 100):<span className="sr-only">1 to 100</span></h3></label>
+                    <label htmlFor="numberInput"><h3>Please enter a number (1 to 100):<span className="sr-only">1 to 100</span></h3></label>
                     <input
                         autoComplete="off"
                         type="number"
